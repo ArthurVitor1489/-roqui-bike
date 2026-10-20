@@ -205,6 +205,36 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005006613541893 (DAREVIE 2.0 PRO Bib Shorts)"
   },
   {
+    id: "lanterna-traseira-tosuod-smart-ipx6",
+    name: "Lanterna Traseira Inteligente TOSUOD LED USB-C 400mAh IPX6 Sensor de Freio",
+    brand: "TOSUOD Pro Light",
+    category: "iluminacao",
+    categoryLabel: "Iluminação & Segurança",
+    price: 89.90,
+    compareAtPrice: 149.90,
+    rating: 4.9,
+    reviewsCount: 284,
+    badge: "DETECÇÃO INTELIGENTE",
+    badgeType: "promo",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/Sb5ec01a0086a458898c649ace1853c091.jpg",
+    specs: [
+      "Detecção Inteligente de Frenagem: Acende em brilho máximo automaticamente ao frear",
+      "Bateria de 400mAh recarregável via USB Tipo-C (5 modos de iluminação de alto brilho)",
+      "Blindagem IPX6 à prova d'água e lama para pedais em qualquer clima",
+      "Acompanha suporte duplo (Instalação nos trilhos do Selim ou no Canote)"
+    ],
+    variantsLabel: "Fixação Inclusa",
+    variants: [
+      "Suporte de Selim (Trilho)",
+      "Suporte de Canote",
+      "Kit Duplo (Selim + Canote)"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005010552095486.html",
+    supplierReference: "AliExpress ID: 1005010552095486 (TOSUOD Smart Tail Light 400mAh)"
+  },
+  {
     id: "gps-ciclocomputador-xoss",
     name: "Ciclocomputador GPS Wireless Bluetooth ANT+ (Sincroniza Strava)",
     brand: "XOSS / iGPSPORT Series",
@@ -253,31 +283,6 @@ const PRODUCTS = [
     hasSizeChart: false,
     checkoutUrl: "",
     supplierReference: "AliExpress - Kapvoe Photochromic"
-  },
-  {
-    id: "lanterna-traseira-sensor-freio",
-    name: "Lanterna Traseira Inteligente LED com Sensor Automático de Freio",
-    brand: "Linha Rockbros Q5",
-    category: "iluminacao",
-    categoryLabel: "Iluminação & Segurança",
-    price: 89.90,
-    compareAtPrice: 149.90,
-    rating: 4.9,
-    reviewsCount: 624,
-    badge: "FRETE GRÁTIS",
-    badgeType: "promo",
-    image: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=900&q=80",
-    specs: [
-      "Sensor de Frenagem: Brilho máximo automático ao reduzir a velocidade",
-      "Modo Inteligente: Desliga sozinha no claro e liga ao detectar movimento",
-      "Bateria USB-C de até 40 horas no modo flash",
-      "Inclui suporte para Selim (trilho) e para Canote"
-    ],
-    variantsLabel: "Fixação",
-    variants: ["Kit Completo (Selim + Canote)"],
-    hasSizeChart: false,
-    checkoutUrl: "",
-    supplierReference: "AliExpress - Rockbros Q5 Smart Brake Tail Light"
   },
   {
     id: "camisa-ciclismo-aero-pro",
