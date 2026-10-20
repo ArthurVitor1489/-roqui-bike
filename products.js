@@ -412,6 +412,37 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005007274254758 (Topump TB2 PRO 120PSI Screen)"
   },
   {
+    id: "oculos-fotocromatico-ciclismo-scvcn-uv400",
+    name: "Óculos de Sol Fotocromático para Ciclismo UV400 Ultra Leve Unissex",
+    brand: "SCVCN Pro Optics",
+    category: "vestuario",
+    categoryLabel: "Vestuário & Proteção",
+    price: 119.90,
+    compareAtPrice: 189.90,
+    rating: 4.9,
+    reviewsCount: 7477,
+    badge: "+7.400 VENDIDOS",
+    badgeType: "hot",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S5e82635893c64208ae3f2bb8c73a2fafw.jpg",
+    specs: [
+      "Lente Fotocromática Inteligente: Clareia em locais escuros/à noite e escurece sob a luz do sol",
+      "Proteção Total UV400 certificada contra raios nocivos UVA e UVB",
+      "Armação em TR90 ultra flexível e resistente a impactos (Apenas 30g no rosto)",
+      "Apoio de nariz emborrachado ajustável + Acompanha estojo rígido e pano de microfibra"
+    ],
+    variantsLabel: "Cor da Armação / Lente",
+    variants: [
+      "Armação Preto Fosco (Lente Fotocromática)",
+      "Armação Branco Perolizado (Lente Fotocromática)",
+      "Armação Cristal / Cinza (Lente Fotocromática)",
+      "Kit com Suporte para Lente de Grau"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005008472789818.html",
+    supplierReference: "AliExpress ID: 1005008472789818 (SCVCN Photochromic Glasses)"
+  },
+  {
     id: "gps-ciclocomputador-xoss",
     name: "Ciclocomputador GPS Wireless Bluetooth ANT+ (Sincroniza Strava)",
     brand: "XOSS / iGPSPORT Series",
@@ -435,31 +466,6 @@ const PRODUCTS = [
     hasSizeChart: false,
     checkoutUrl: "",
     supplierReference: "AliExpress - XOSS G+ Gen2"
-  },
-  {
-    id: "oculos-fotocromatico-uv400",
-    name: "Óculos Ciclismo Fotocromático Polarizado UV400 Ultra Leve",
-    brand: "Kapvoe Pro Vision",
-    category: "vestuario",
-    categoryLabel: "Vestuário & Proteção",
-    price: 129.90,
-    compareAtPrice: 219.90,
-    rating: 4.8,
-    reviewsCount: 289,
-    badge: "LENTE INTELIGENTE",
-    badgeType: "new",
-    image: "https://images.unsplash.com/photo-1541625602330-2277a4c46182?auto=format&fit=crop&w=900&q=80",
-    specs: [
-      "Lente Fotocromática: Transparente à noite / Escurece no sol",
-      "Proteção UV400 completa contra raios UVA e UVB",
-      "Armação TR90 flexível ultra leve (Apenas 28g)",
-      "Acompanha estojo rígido + suporte para lente de grau"
-    ],
-    variantsLabel: "Cor da Armação",
-    variants: ["Preto Carbono / Vermelho", "Branco Aero / Neon", "Preto Fosco Stealth"],
-    hasSizeChart: false,
-    checkoutUrl: "",
-    supplierReference: "AliExpress - Kapvoe Photochromic"
   },
   {
     id: "camisa-ciclismo-aero-pro",
