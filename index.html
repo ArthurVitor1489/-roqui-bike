@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoquiBike | Equipamentos e Acessórios de Alta Performance para Ciclismo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- BARRA DE AVISO NO TOPO -->
+  <div class="top-bar">
+    🚴 FRETE GRÁTIS ACIMA DE R$ 149,90 • 10% OFF NO PIX • ENVIO COM RASTREIO CORREIOS PARA TODO O BRASIL
+  </div>
+
+  <!-- CABEÇALHO -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo">
+        ⚡ ROQUI<span class="accent">BIKE</span>
+        <span class="brand-badge">PRO SHOP</span>
+      </a>
+
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Buscar farol 1000 lúmens, GPS Strava, bretelle gel..." />
+      </div>
+
+      <div class="header-actions">
+        <button class="btn-ghost" id="btnOpenTracker" title="Rastrear Pedido">
+          📦 Rastrear Pedido
+        </button>
+        <button class="btn-ghost" id="btnOpenAdmin" title="Modo Lojista (Ver Fornecedores)">
+          ⚙️ Painel Drop
+        </button>
+        <button class="cart-btn" id="btnOpenCart">
+          🛒 Carrinho <span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO BANNER -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-tag">🔥 OFERTAS DE TEMPORADA • ATÉ 42% OFF</div>
+        <h1>Suba de Nível no Pedal com <span>Performance Pro</span></h1>
+        <p>
+          Acessórios de iluminação em alumínio CNC, ciclocomputadores GPS compatíveis com Strava e vestuário térmico com proteção UV50+. Selecionados para MTB, Speed e Gravel.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#catalogo" class="btn-primary">Ver Ofertas em Destaque ↓</a>
+          <button class="btn-ghost" onclick="filterCategory('iluminacao')">🔦 Linha Noturna 1000 Lúmens</button>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <strong>+14.800</strong>
+            <span>Ciclistas atendidos no Brasil</span>
+          </div>
+          <div class="stat-item">
+            <strong>4.9 ★</strong>
+            <span>Nota média de satisfação</span>
+          </div>
+          <div class="stat-item">
+            <strong>100% Seguro</strong>
+            <span>Garantia de entrega ou reembolso</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182?auto=format&fit=crop&w=1100&q=85" alt="Ciclista de Alta Performance" />
+        <div class="floating-card">
+          <div class="pulse"></div>
+          <div>
+            <strong style="font-size: 0.88rem; display: block;">Envio com Código de Rastreio</strong>
+            <span style="font-size: 0.76rem; color: var(--text-muted);">Sincronizado direto com os Correios</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAIXA DE CONFIANÇA -->
+  <section class="trust-strip">
+    <div class="container trust-grid">
+      <div class="trust-item">
+        <div class="trust-icon">⚡</div>
+        <div>
+          <h4>10% OFF no PIX</h4>
+          <p>Aprovação imediata do pedido</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">💳</div>
+        <div>
+          <h4>Até 12x no Cartão</h4>
+          <p>Pagamento 100% criptografado</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">🛡️</div>
+        <div>
+          <h4>Troca Garantida</h4>
+          <p>7 dias para troca de tamanho sem custo</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">💧</div>
+        <div>
+          <h4>Padrão IPX6 / IPX7</h4>
+          <p>Equipamentos à prova de chuva e trilha</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO DE PRODUTOS -->
+  <main class="catalog-section" id="catalogo">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2>Equipamentos Campeões de Venda</h2>
+          <p>Escolha sua categoria abaixo ou clique no produto para ver especificações e tabela de medidas</p>
+        </div>
+      </div>
+
+      <div class="category-tabs" id="categoryTabs">
+        <button class="cat-tab active" data-cat="todos">Todos os Produtos</button>
+        <button class="cat-tab" data-cat="iluminacao">🔦 Iluminação & Segurança</button>
+        <button class="cat-tab" data-cat="tecnologia">📡 GPS & Strava</button>
+        <button class="cat-tab" data-cat="vestuario">👕 Vestuário & Óculos</button>
+        <button class="cat-tab" data-cat="acessorios">🛠️ Manutenção & Bolsas</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+        <!-- Renderizado dinamicamente via app.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="#" class="brand-logo" style="margin-bottom: 12px; display: inline-flex;">
+            ⚡ ROQUI<span class="accent">BIKE</span>
+          </a>
+          <p>Especialistas em acessórios de alta performance para ciclismo de estrada, MTB e urbano. Qualidade testada nas trilhas e no asfalto.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Categorias</h4>
+          <ul>
+            <li><a href="#catalogo" onclick="filterCategory('iluminacao')">Faróis e Lanternas LED</a></li>
+            <li><a href="#catalogo" onclick="filterCategory('tecnologia')">Ciclocomputadores GPS</a></li>
+            <li><a href="#catalogo" onclick="filterCategory('vestuario')">Bretelles, Camisas e Óculos</a></li>
+            <li><a href="#catalogo" onclick="filterCategory('acessorios')">Bolsas e Mini Compressores</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Central do Ciclista</h4>
+          <ul>
+            <li><a href="#" id="footerTrackLink">Rastrear meu Pedido</a></li>
+            <li><a href="#catalogo">Tabela de Medidas</a></li>
+            <li><a href="#catalogo">Política de Frete e Prazo</a></li>
+            <li><a href="#catalogo">Garantia de 90 Dias</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Atendimento</h4>
+          <ul>
+            <li>Seg a Sex: 09h às 18h</li>
+            <li>Suporte Rápido via WhatsApp</li>
+            <li style="margin-top: 8px; color: var(--accent-green); font-weight: 700;">🔒 Loja com Certificado SSL</li>
+          </ul>
+        </div>
+      </div>
+      <div style="border-top: 1px solid var(--border); padding-top: 20px; text-align: center; font-size: 0.8rem;">
+        © 2026 RoquiBike Store. Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <!-- DRAWER DO CARRINHO -->
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>🛒 Seu Carrinho</h3>
+      <button class="modal-close" id="btnCloseCart" style="position: static;">✕</button>
+    </div>
+    <div class="shipping-bar-wrap">
+      <div id="shippingMsg">Adicione R$ 149,90 para ganhar <strong>FRETE GRÁTIS</strong>!</div>
+      <div class="shipping-progress">
+        <div class="shipping-progress-fill" id="shippingFill" style="width: 0%;"></div>
+      </div>
+    </div>
+    <div class="cart-items" id="cartItemsContainer"></div>
+    <div class="cart-footer">
+      <div class="summary-row">
+        <span>Subtotal Cartão:</span>
+        <span id="cartSubtotal">R$ 0,00</span>
+      </div>
+      <div class="summary-row">
+        <span>Frete Estimado:</span>
+        <span id="cartShipping" style="color: var(--accent-green); font-weight: 700;">Grátis</span>
+      </div>
+      <div class="summary-row total">
+        <span>Total no PIX (-10%):</span>
+        <span id="cartPixTotal">R$ 0,00</span>
+      </div>
+      <button class="btn-primary" style="width: 100%;" id="btnCheckout">
+        Finalizar Pedido Agora →
+      </button>
+    </div>
+  </aside>
+
+  <!-- MODAL DETALHES DO PRODUTO -->
+  <div class="overlay" id="productModal">
+    <div class="modal-box" id="productModalContent"></div>
+  </div>
+
+  <!-- MODAL DE CHECKOUT SEM MENSALIDADE (PIX + WHATSAPP) -->
+  <div class="overlay" id="checkoutModal">
+    <div class="modal-box" style="max-width: 540px;">
+      <button class="modal-close" onclick="closeModal('checkoutModal')">✕</button>
+      <h3 style="font-size: 1.35rem; margin-bottom: 6px;">🔒 Finalizar Compra</h3>
+      <p style="color: var(--text-muted); font-size: 0.86rem; margin-bottom: 18px;">
+        Preencha seus dados de entrega para gerar seu pedido com desconto no PIX ou cartão.
+      </p>
+
+      <form id="checkoutForm">
+        <div class="form-group">
+          <label>Nome Completo</label>
+          <input type="text" id="custName" required placeholder="Ex: João Silva" />
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+          <div class="form-group">
+            <label>WhatsApp com DDD</label>
+            <input type="tel" id="custPhone" required placeholder="(11) 99999-9999" />
+          </div>
+          <div class="form-group">
+            <label>CEP de Entrega</label>
+            <input type="text" id="custCep" required placeholder="00000-000" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Endereço Completo (Rua, Número, Bairro, Cidade/UF)</label>
+          <input type="text" id="custAddress" required placeholder="Rua das Bikes, 123 - Centro, São Paulo/SP" />
+        </div>
+        <div class="form-group">
+          <label>Forma de Pagamento Preferida</label>
+          <select id="custPayment">
+            <option value="PIX com 10% de Desconto">⚡ PIX Imediato (10% de Desconto Aplicado)</option>
+            <option value="Cartão de Crédito em até 12x">💳 Cartão de Crédito (Link Seguro Mercado Pago / Yampi)</option>
+          </select>
+        </div>
+
+        <div style="background: var(--bg-elevated); border: 1px solid var(--border); padding: 12px; border-radius: 10px; margin: 14px 0; font-size: 0.84rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+            <span>Chave PIX da Loja:</span>
+            <strong id="pixKeyDisplay" style="color: var(--accent-green);"></strong>
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <span>Total com Desconto PIX:</span>
+            <strong id="checkoutModalTotal" style="color: var(--accent-green); font-size: 1rem;"></strong>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width: 100%;">
+          ✅ Confirmar e Enviar Pedido no WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL DE RASTREAMENTO -->
+  <div class="overlay" id="trackerModal">
+    <div class="modal-box" style="max-width: 500px;">
+      <button class="modal-close" onclick="closeModal('trackerModal')">✕</button>
+      <h3 style="margin-bottom: 8px;">📦 Rastrear Meu Pedido</h3>
+      <p style="color: var(--text-muted); font-size: 0.86rem; margin-bottom: 16px;">
+        Insira seu código de rastreio (padrão Correios / AliExpress Standard Shipping) enviado para seu WhatsApp ou E-mail.
+      </p>
+      <div class="form-group">
+        <label>Código de Rastreio</label>
+        <input type="text" id="trackCodeInput" placeholder="Ex: NM123456789BR ou LB987654321HK" style="text-transform: uppercase;" />
+      </div>
+      <button class="btn-primary" style="width: 100%;" id="btnSearchTrack">Consultar Status</button>
+      <div id="trackResult" style="margin-top: 18px;"></div>
+    </div>
+  </div>
+
+  <!-- MODAL PAINEL DO LOJISTA (GUIA DROPSHIPPING) -->
+  <div class="overlay" id="adminModal">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeModal('adminModal')">✕</button>
+      <h3 style="margin-bottom: 6px;">⚙️ Painel do Lojista (Mapa de Fornecedores Dropshipping)</h3>
+      <p style="color: var(--text-muted); font-size: 0.86rem; margin-bottom: 16px;">
+        Estes são os produtos cadastrados no arquivo <code>products.js</code> com a referência de busca no <strong>AliExpress / CJ Dropshipping</strong> e sugestão de margem:
+      </p>
+      <div id="adminSuppliersTable" style="overflow-x: auto;"></div>
+    </div>
+  </div>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
