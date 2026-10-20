@@ -144,29 +144,33 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005013265974404 (iGPSPORT BSC200)"
   },
   {
-    id: "farol-led-1000lm",
-    name: "Farol Bike LED 1000 Lúmens Recarregável USB-C IPX6",
-    brand: "Linha Rockbros Pro",
+    id: "farol-led-offbondage-1000lm",
+    name: "Farol Bike LED OFFBONDAGE 1000 Lúmens + Power Bank USB-C Alumínio",
+    brand: "OFFBONDAGE Oficial",
     category: "iluminacao",
     categoryLabel: "Iluminação & Segurança",
     price: 139.90,
-    compareAtPrice: 229.90,
+    compareAtPrice: 219.90,
     rating: 4.9,
-    reviewsCount: 342,
-    badge: "MAIS VENDIDO",
+    reviewsCount: 3420,
+    badge: "1000 LÚMENS + POWER BANK",
     badgeType: "hot",
-    image: "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&w=900&q=80",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S8f34d618f7d04f03a99869fa1db3f37ar.jpg",
     specs: [
-      "Potência Real: 1000 Lúmens (Alcance de 200m)",
-      "Bateria: 4800mAh (Até 8h de duração) USB-C",
-      "Proteção: IPX6 (100% Resistente a chuva forte)",
-      "Corpo em Alumínio Aeronáutico CNC (152g)"
+      "Potência Real de 1000 Lúmens com facho amplo anti-ofuscamento (Alcance de 200m+)",
+      "Função Power Bank 2 em 1: Bateria de 4800mAh recarrega celular ou GPS via USB",
+      "Corpo em Liga de Alumínio Aeronáutico dissipador de calor + Proteção IPX5 contra chuva",
+      "5 Modos de Iluminação + Suporte de guidão engate rápido 360° incluso"
     ],
-    variantsLabel: "Suporte Incluso",
-    variants: ["Suporte Guidão Padrão", "Suporte Central (Estilo GoPro)"],
+    variantsLabel: "Versão / Suporte",
+    variants: [
+      "1000 Lúmens (4800mAh) + Suporte Guidão",
+      "1000 Lúmens + Suporte Duplo (Guidão + GoPro)"
+    ],
     hasSizeChart: false,
-    checkoutUrl: "", // Cole aqui seu link da Yampi / Mercado Pago se desejar
-    supplierReference: "AliExpress - Rockbros RHL1000 / 1000LM"
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005005937076593.html",
+    supplierReference: "AliExpress ID: 1005005937076593 (OFFBONDAGE 1000LM HR3-1000)"
   },
   {
     id: "gps-ciclocomputador-xoss",
