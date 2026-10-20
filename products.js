@@ -325,6 +325,35 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005007345198652 (RACEWORK MTB SPD Pedals)"
   },
   {
+    id: "mini-bomba-ar-eletrica-100psi-portatil",
+    name: "Mini Bomba de Ar Elétrica Portátil Recarregável 100 PSI USB-C para Bike",
+    brand: "TinyAir Pro Lab",
+    category: "acessorios",
+    categoryLabel: "Manutenção & Ferramentas",
+    price: 179.90,
+    compareAtPrice: 269.90,
+    rating: 4.9,
+    reviewsCount: 10113,
+    badge: "+10 MIL VENDIDOS",
+    badgeType: "tech",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S1f27b5e0186f4f20888f7655ce168cefP.jpg",
+    specs: [
+      "Pressão Máxima de 100 PSI: Enche 2 a 3 pneus vazios de Speed ou MTB com uma única carga",
+      "Ultracompacta (Tamanho de bolso): Apenas 130g, cabe no bolso da camisa de ciclismo",
+      "Bico inteligente duplo compatível com válvulas Presta (bico fino) e Schrader (bico grosso)",
+      "Bateria de lítio recarregável via USB Tipo-C de carregamento rápido em 40 minutos"
+    ],
+    variantsLabel: "Kit de Acessórios",
+    variants: [
+      "Mini Bomba + Cabo USB-C + Bicos Presta/Schrader",
+      "Kit Completo com Capa Térmica de Silicone"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005010298862051.html",
+    supplierReference: "AliExpress ID: 1005010298862051 (Electric Bike Pump 100PSI)"
+  },
+  {
     id: "gps-ciclocomputador-xoss",
     name: "Ciclocomputador GPS Wireless Bluetooth ANT+ (Sincroniza Strava)",
     brand: "XOSS / iGPSPORT Series",
@@ -398,31 +427,6 @@ const PRODUCTS = [
     hasSizeChart: true,
     checkoutUrl: "",
     supplierReference: "AliExpress - YKYWBIKE / Spexcel Aero Jersey"
-  },
-  {
-    id: "mini-bomba-eletrica-digital",
-    name: "Mini Compressor Portátil Digital 120 PSI para Pneus Speed e MTB",
-    brand: "Cycplus / West Biking",
-    category: "acessorios",
-    categoryLabel: "Manutenção & Bolsas",
-    price: 249.90,
-    compareAtPrice: 389.90,
-    rating: 4.9,
-    reviewsCount: 163,
-    badge: "NOVIDADE",
-    badgeType: "tech",
-    image: "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=900&q=80",
-    specs: [
-      "Enche pneu MTB ou Speed (até 120 PSI) em menos de 80 segundos",
-      "Desligamento automático ao atingir a pressão programada no visor",
-      "Compatível com válvula Presta (bico fino) e Schrader (bico grosso)",
-      "Tamanho de bolso: Cabe na camisa de ciclismo ou bolsa de selim"
-    ],
-    variantsLabel: "Modelo",
-    variants: ["Versão 120 PSI com Visor LED"],
-    hasSizeChart: false,
-    checkoutUrl: "",
-    supplierReference: "AliExpress - Cycplus A2 / Tiny Pump Cube"
   },
   {
     id: "bolsa-quadro-impermeavel",
