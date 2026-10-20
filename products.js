@@ -383,6 +383,35 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005006894238389 (Rockbros Electric Pump 100PSI)"
   },
   {
+    id: "mini-bomba-eletrica-topump-tb2-pro-120psi-visor",
+    name: "Mini Bomba Elétrica Topump TB2 PRO 120 PSI com Visor Digital Inteligente",
+    brand: "Topump Pro Lab",
+    category: "acessorios",
+    categoryLabel: "Manutenção & Ferramentas",
+    price: 279.90,
+    compareAtPrice: 389.90,
+    rating: 4.9,
+    reviewsCount: 25370,
+    badge: "+25 MIL VENDIDOS",
+    badgeType: "tech",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S9bb32366aebc41c08b51674168231c18Z.jpg",
+    specs: [
+      "Visor Digital LED em tempo real: Mostra a pressão exata do pneu em PSI / BAR",
+      "Auto Desligamento: Programe a pressão desejada (até 120 PSI) e ela para sozinha",
+      "Bateria 450mAh com carregamento rápido USB Tipo-C (Enche pneus de MTB e Speed)",
+      "Compatível com válvula Presta (bico fino) e Schrader (bico grosso) sem precisar de adaptador"
+    ],
+    variantsLabel: "Modelo",
+    variants: [
+      "Topump TB2 PRO com Visor Digital LED",
+      "Kit TB2 PRO + Capa de Silicone Térmica"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005007274254758.html",
+    supplierReference: "AliExpress ID: 1005007274254758 (Topump TB2 PRO 120PSI Screen)"
+  },
+  {
     id: "gps-ciclocomputador-xoss",
     name: "Ciclocomputador GPS Wireless Bluetooth ANT+ (Sincroniza Strava)",
     brand: "XOSS / iGPSPORT Series",
