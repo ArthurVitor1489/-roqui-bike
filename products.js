@@ -83,6 +83,37 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 32510071652 (Shimano SM-RT86 / RT76 / RT66)"
   },
   {
+    id: "pneu-maxxis-aspen-29-kevlar-tubeless",
+    name: "Pneu MTB Maxxis Aspen ST 29x2.25 / 29x2.10 Kevlar Dobrável Tubeless Ready XC",
+    brand: "Maxxis Pro Racing",
+    category: "acessorios",
+    categoryLabel: "Peças & Performance",
+    price: 349.90,
+    compareAtPrice: 449.90,
+    rating: 4.9,
+    reviewsCount: 1971,
+    badge: "+1.900 VENDIDOS",
+    badgeType: "hot",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S9fc91e97f81147c29d74621b2187b4c2J.jpg",
+    specs: [
+      "Estrutura Dobrável em Kevlar (Aramida) ultra leve para Cross-Country (XC)",
+      "Tecnologia EXO Protection nas laterais (alta resistência a cortes e furos)",
+      "Compatível com sistema Tubeless Ready (Sem câmara / Selante) ou Câmara",
+      "Cravos de perfil baixo para máxima velocidade de rolagem e grip em curvas"
+    ],
+    variantsLabel: "Medida e Modelo",
+    variants: [
+      "29x2.10 • Kevlar Padrão",
+      "29x2.25 • EXO Tubeless Ready (Preto)",
+      "29x2.25 • EXO Tubeless (Banda Marrom)",
+      "29x2.25 • Aspen ST Fast XC"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005005896095673.html",
+    supplierReference: "AliExpress ID: 1005005896095673 (Maxxis Aspen 29x2.25 / 2.10)"
+  },
+  {
     id: "farol-led-1000lm",
     name: "Farol Bike LED 1000 Lúmens Recarregável USB-C IPX6",
     brand: "Linha Rockbros Pro",
