@@ -19,6 +19,37 @@ const STORE_CONFIG = {
 
 const PRODUCTS = [
   {
+    id: "freio-hidraulico-shimano-m4100-mt420",
+    name: "Freio a Disco Hidráulico Shimano BL-M4100 + Pinça BR-MT420 4 Pistões MTB",
+    brand: "Shimano Deore Series",
+    category: "acessorios",
+    categoryLabel: "Peças & Performance",
+    price: 389.90,
+    compareAtPrice: 479.90,
+    rating: 4.9,
+    reviewsCount: 188,
+    badge: "4 PISTÕES • SHIMANO",
+    badgeType: "hot",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S76bcbfe747c848f383ccce681cc4b97fE.jpg",
+    specs: [
+      "Pinça Shimano BR-MT420 de 4 Pistões (90% mais força de frenagem que 2 pistões)",
+      "Manete Ergonômico Shimano BL-M4100 com tecnologia I-SPEC EV",
+      "Sistema sangrado de fábrica com óleo mineral Shimano (Pronto para instalar)",
+      "Pastilhas de Resina D03S inclusas • Vendido por lado (Dianteiro ou Traseiro)"
+    ],
+    variantsLabel: "Escolha o Lado / Comprimento da Mangueira",
+    variants: [
+      "Dianteiro Esquerdo (850mm)",
+      "Traseiro Direito (1600mm)",
+      "Traseiro Direito (1650mm)",
+      "Traseiro Direito (1700mm)"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005010078208915.html",
+    supplierReference: "AliExpress ID: 1005010078208915 (Shimano BL-M4100 BR-MT420)"
+  },
+  {
     id: "farol-led-1000lm",
     name: "Farol Bike LED 1000 Lúmens Recarregável USB-C IPX6",
     brand: "Linha Rockbros Pro",

@@ -366,15 +366,18 @@ function renderAdminSuppliers() {
       </thead>
       <tbody>
         ${PRODUCTS.map((p) => {
-          const estimatedCost = p.price * 0.42;
+          const estimatedCost = p.price * 0.58;
           const profit = getPixPrice(p.price) - estimatedCost;
+          const supplierAction = p.supplierUrl
+            ? `<a href="${p.supplierUrl}" target="_blank" class="btn-primary" style="padding: 6px 10px; font-size: 0.76rem; text-decoration: none;">🔗 Abrir no AliExpress ↗</a>`
+            : `<code>${p.supplierReference}</code>`;
           return `
             <tr>
               <td><strong>${p.name}</strong></td>
               <td>~${formatBRL(estimatedCost)}</td>
               <td style="color: var(--accent-green); font-weight: 700;">${formatBRL(p.price)}</td>
               <td style="color: #00e676; font-weight: 800;">+${formatBRL(profit)} / venda</td>
-              <td><code>${p.supplierReference}</code></td>
+              <td>${supplierAction}</td>
             </tr>
           `;
         }).join("")}
