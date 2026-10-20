@@ -50,6 +50,39 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005010078208915 (Shimano BL-M4100 BR-MT420)"
   },
   {
+    id: "disco-rotor-shimano-rt86-rt76-rt66",
+    name: "Disco Rotor de Freio Shimano Deore XT SM-RT86 / SLX RT76 / RT66 (6 Parafusos)",
+    brand: "Shimano XT / SLX Series",
+    category: "acessorios",
+    categoryLabel: "Peças & Performance",
+    price: 189.90,
+    compareAtPrice: 269.90,
+    rating: 4.9,
+    reviewsCount: 753,
+    badge: "ICE-TECH • SHIMANO",
+    badgeType: "tech",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/Sf29dba80fdd54b48a2b75c323c221ba8V.jpg",
+    specs: [
+      "Fixação padrão Internacional de 6 Parafusos (Acompanha parafusos Torx e travas)",
+      "Dissipação térmica avançada para frenagens longas em MTB, Enduro e Downhill",
+      "Compatível com pastilhas de Resina (Orgânica) e Metal (Sinterizada)",
+      "Disponível nos diâmetros 160mm, 180mm e 203mm (Linhas RT66, RT76 e XT RT86)"
+    ],
+    variantsLabel: "Modelo e Diâmetro do Disco",
+    variants: [
+      "SM-RT66 • 160mm",
+      "SM-RT66 • 180mm",
+      "SM-RT76 SLX • 180mm",
+      "SM-RT86 XT Ice-Tech • 160mm",
+      "SM-RT86 XT Ice-Tech • 180mm",
+      "SM-RT86 XT Ice-Tech • 203mm"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/32510071652.html",
+    supplierReference: "AliExpress ID: 32510071652 (Shimano SM-RT86 / RT76 / RT66)"
+  },
+  {
     id: "farol-led-1000lm",
     name: "Farol Bike LED 1000 Lúmens Recarregável USB-C IPX6",
     brand: "Linha Rockbros Pro",
