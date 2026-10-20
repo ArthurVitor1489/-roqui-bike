@@ -173,6 +173,38 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005005937076593 (OFFBONDAGE 1000LM HR3-1000)"
   },
   {
+    id: "bretelle-ciclismo-darevie-2-pro",
+    name: "Bretelle Ciclismo Masculino DAREVIE 2.0 PRO Seamless Forro 7h+ Pedal",
+    brand: "DAREVIE Oficial",
+    category: "vestuario",
+    categoryLabel: "Vestuário & Proteção",
+    price: 249.90,
+    compareAtPrice: 349.90,
+    rating: 4.9,
+    reviewsCount: 9498,
+    badge: "+9.400 VENDIDOS",
+    badgeType: "hot",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/Sc7de74c57fc8420d9a223da6923b46e2u.jpg",
+    specs: [
+      "Versão 2.0 PRO Seamless: Corte a laser sem costura nas alças e barras (zero atrito)",
+      "Forro Anatômico Multi-Densidade DAREVIE Pro projetado para pedais longos de 6h a 8h+",
+      "Tecido Lycra 4-Way Stretch de alta compressão muscular e respirabilidade",
+      "Acompanha Tabela de Medidas oficial (P ao 3G)"
+    ],
+    variantsLabel: "Tamanho (Padrão BR / Asiático)",
+    variants: [
+      "P (S) • 55-65kg",
+      "M (M) • 65-75kg",
+      "G (L) • 75-85kg",
+      "GG (XL) • 85-95kg",
+      "3G (XXL) • 95-108kg"
+    ],
+    hasSizeChart: true,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005006613541893.html",
+    supplierReference: "AliExpress ID: 1005006613541893 (DAREVIE 2.0 PRO Bib Shorts)"
+  },
+  {
     id: "gps-ciclocomputador-xoss",
     name: "Ciclocomputador GPS Wireless Bluetooth ANT+ (Sincroniza Strava)",
     brand: "XOSS / iGPSPORT Series",
@@ -221,31 +253,6 @@ const PRODUCTS = [
     hasSizeChart: false,
     checkoutUrl: "",
     supplierReference: "AliExpress - Kapvoe Photochromic"
-  },
-  {
-    id: "bretelle-gel-9d-carbon",
-    name: "Bretelle Ciclismo Pro Carbon Forro Gel 9D Alta Densidade",
-    brand: "RoquiBike Apparel",
-    category: "vestuario",
-    categoryLabel: "Vestuário & Proteção",
-    price: 169.90,
-    compareAtPrice: 279.90,
-    rating: 4.9,
-    reviewsCount: 412,
-    badge: "CONFORTO 7H+ PEDAL",
-    badgeType: "hot",
-    image: "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?auto=format&fit=crop&w=900&q=80",
-    specs: [
-      "Forro anatômico em Gel 9D respirável (Ideal para pedais de 5h a 8h)",
-      "Tecido Lycra Compressão com alças em Mesh ultra ventilado",
-      "Barras com fita de silicone italiana (não sobe na perna)",
-      "Costura Flatlock anti-atrito + detalhes refletivos 3M"
-    ],
-    variantsLabel: "Tamanho (BR)",
-    variants: ["P", "M", "G", "GG", "3G"],
-    hasSizeChart: true,
-    checkoutUrl: "",
-    supplierReference: "AliExpress - Kemaloce / Darevie Bib Shorts Gel"
   },
   {
     id: "lanterna-traseira-sensor-freio",
