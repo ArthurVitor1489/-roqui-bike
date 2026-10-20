@@ -295,6 +295,36 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005008527431343 (GEOID CC600 Color Screen)"
   },
   {
+    id: "pedal-clip-mtb-racework-spd",
+    name: "Pedal Clip MTB RACEWORK com Rolamentos Selados (Compatível Shimano SPD)",
+    brand: "RACEWORK Pro Cycling",
+    category: "acessorios",
+    categoryLabel: "Peças & Performance",
+    price: 179.90,
+    compareAtPrice: 259.90,
+    rating: 4.8,
+    reviewsCount: 642,
+    badge: "INCLUI TACOS SPD",
+    badgeType: "hot",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S65395386746c4a05b5b81aca4cce21c5z.jpg",
+    specs: [
+      "Sistema de encaixe duplo padrão Shimano SPD (Acompanha par de tacos + parafusos)",
+      "2 Rolamentos selados DU de alta durabilidade com vedação total contra poeira e lama",
+      "Corpo em Liga de Alumínio CNC ultra resistente com eixo em Aço Cromo-Molibdênio",
+      "Ajuste micrométrico de tensão da mola para engate e desengate fácil e seguro"
+    ],
+    variantsLabel: "Cor dos Detalhes",
+    variants: [
+      "Preto Stealth (Eixo Prata)",
+      "Preto com Detalhe Dourado",
+      "Preto com Detalhe Vermelho"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005007345198652.html",
+    supplierReference: "AliExpress ID: 1005007345198652 (RACEWORK MTB SPD Pedals)"
+  },
+  {
     id: "gps-ciclocomputador-xoss",
     name: "Ciclocomputador GPS Wireless Bluetooth ANT+ (Sincroniza Strava)",
     brand: "XOSS / iGPSPORT Series",
