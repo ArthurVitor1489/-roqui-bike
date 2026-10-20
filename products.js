@@ -354,6 +354,35 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005010298862051 (Electric Bike Pump 100PSI)"
   },
   {
+    id: "mini-bomba-eletrica-rockbros-100psi-cnc",
+    name: "Mini Bomba Elétrica Rockbros Oficial 100 PSI Alumínio CNC USB-C",
+    brand: "Rockbros Oficial",
+    category: "acessorios",
+    categoryLabel: "Manutenção & Ferramentas",
+    price: 259.90,
+    compareAtPrice: 359.90,
+    rating: 4.9,
+    reviewsCount: 448,
+    badge: "ROCKBROS ORIGINAL",
+    badgeType: "hot",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/Sa8bed5cd341a43058975f7685491b354k.jpg",
+    specs: [
+      "Original Rockbros: Construção premium em Alumínio Aeroespacial CNC",
+      "Pressão Real de até 100 PSI com bico duplo inteligente (Presta FV e Schrader AV)",
+      "Motor brushless ultra potente com dissipação térmica aprimorada",
+      "Acompanha capa de silicone protetora térmica, bico extensor e cabo USB-C"
+    ],
+    variantsLabel: "Versão Rockbros",
+    variants: [
+      "Rockbros 100 PSI + Capa Silicone Térmica",
+      "Rockbros 100 PSI + Kit Completo Mangueira Flexível"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005006894238389.html",
+    supplierReference: "AliExpress ID: 1005006894238389 (Rockbros Electric Pump 100PSI)"
+  },
+  {
     id: "gps-ciclocomputador-xoss",
     name: "Ciclocomputador GPS Wireless Bluetooth ANT+ (Sincroniza Strava)",
     brand: "XOSS / iGPSPORT Series",
