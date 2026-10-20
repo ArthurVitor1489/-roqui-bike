@@ -235,6 +235,66 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005010552095486 (TOSUOD Smart Tail Light 400mAh)"
   },
   {
+    id: "lanterna-traseira-rockbros-inteligente-aluminio",
+    name: "Lanterna Traseira Rockbros Inteligente Sensor de Freio em Alumínio CNC USB-C",
+    brand: "Rockbros Oficial",
+    category: "iluminacao",
+    categoryLabel: "Iluminação & Segurança",
+    price: 119.90,
+    compareAtPrice: 179.90,
+    rating: 4.9,
+    reviewsCount: 18242,
+    badge: "+18 MIL VENDIDOS",
+    badgeType: "hot",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S83df1a4376584b0686f6fbe0d8a98655h.jpg",
+    specs: [
+      "Corpo usinado em Alumínio CNC de alta resistência a impactos",
+      "Sensor de Aceleração/Frenagem: Brilho máximo contínuo ao desacelerar",
+      "Modo Auto Sleep / Wake: Desliga após 30s parada e religa ao menor movimento",
+      "Bateria USB Tipo-C com autonomia de até 35 horas no modo pulsante"
+    ],
+    variantsLabel: "Modelo do Suporte",
+    variants: [
+      "Suporte Trilho de Selim",
+      "Suporte Abraçadeira Canote",
+      "Kit Completo (Selim + Canote)"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005007966963944.html",
+    supplierReference: "AliExpress ID: 1005007966963944 (Rockbros Smart Tail Light CNC)"
+  },
+  {
+    id: "ciclocomputador-geoid-cc600-tela-colorida",
+    name: "Ciclocomputador GPS GEOID CC600 Tela Colorida 2.4\" ANT+ Bluetooth Strava",
+    brand: "GEOID / Magene Ecosystem",
+    category: "tecnologia",
+    categoryLabel: "GPS & Tecnologia",
+    price: 369.90,
+    compareAtPrice: 489.90,
+    rating: 4.9,
+    reviewsCount: 890,
+    badge: "TELA COLORIDA",
+    badgeType: "tech",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/S93727a5577604e70b816a504ced40ec1T.jpg",
+    specs: [
+      "Tela Colorida HD de 2.4 polegadas com ajuste automático de contraste no sol",
+      "Sincronização instantânea com Strava, TrainingPeaks e App GEOID",
+      "Conexão Dual Bluetooth 5.0 + ANT+ (Cadência, Velocidade, Frequência Cardíaca e Potência)",
+      "Bateria de até 22 horas de pedal contínuo com GPS ativo + Proteção IPX7"
+    ],
+    variantsLabel: "Kit de Acessórios",
+    variants: [
+      "Aparelho CC600 + Suporte Guidão",
+      "CC600 + Capa Protetora de Silicone",
+      "CC600 + Suporte Frontal Aero Avançado"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005008527431343.html",
+    supplierReference: "AliExpress ID: 1005008527431343 (GEOID CC600 Color Screen)"
+  },
+  {
     id: "gps-ciclocomputador-xoss",
     name: "Ciclocomputador GPS Wireless Bluetooth ANT+ (Sincroniza Strava)",
     brand: "XOSS / iGPSPORT Series",
