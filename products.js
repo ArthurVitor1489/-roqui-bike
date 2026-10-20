@@ -114,6 +114,36 @@ const PRODUCTS = [
     supplierReference: "AliExpress ID: 1005005896095673 (Maxxis Aspen 29x2.25 / 2.10)"
   },
   {
+    id: "ciclocomputador-gps-igpsport-bsc200",
+    name: "Ciclocomputador GPS iGPSPORT BSC200 Navegação por Rota ANT+ Bluetooth 5.0",
+    brand: "iGPSPORT Oficial",
+    category: "tecnologia",
+    categoryLabel: "GPS & Tecnologia",
+    price: 429.90,
+    compareAtPrice: 549.90,
+    rating: 4.9,
+    reviewsCount: 25157,
+    badge: "+25 MIL VENDIDOS",
+    badgeType: "tech",
+    image: "https://ae-pic-a1.aliexpress-media.com/kf/Sa5737f026545431fa00ab845c5d566a8Q.jpg",
+    specs: [
+      "Navegação de Rota curva a curva na tela + Sincronização automática com Strava",
+      "Tela LCD antirreflexo de 2.6\" com mais de 140 dados configuráveis pelo App",
+      "Conexão Bluetooth 5.0 e ANT+ (Suporta Potenciômetro, Cadência, Cinta Cardíaca e Câmbio Eletrônico)",
+      "Bateria de longa duração (até 30h de pedal) com carregamento rápido USB-C e proteção IPX7"
+    ],
+    variantsLabel: "Escolha o Kit",
+    variants: [
+      "BSC200 + Suporte Padrão",
+      "BSC200 + Capa Silicone + Película",
+      "BSC200 + Suporte Alongado Frontal M80"
+    ],
+    hasSizeChart: false,
+    checkoutUrl: "",
+    supplierUrl: "https://pt.aliexpress.com/item/1005013265974404.html",
+    supplierReference: "AliExpress ID: 1005013265974404 (iGPSPORT BSC200)"
+  },
+  {
     id: "farol-led-1000lm",
     name: "Farol Bike LED 1000 Lúmens Recarregável USB-C IPX6",
     brand: "Linha Rockbros Pro",
